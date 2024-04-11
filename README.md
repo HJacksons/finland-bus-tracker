@@ -14,7 +14,7 @@ This project provides a service that consumes telemetry data from the MQTT serve
 
 1. Clone this repository:
     ```
-    git clone https://github.com/yourusername/finland-bus-tracker.git
+    git clone https://github.com/HJacksons/finland-bus-tracker.git
     ```
 2. Change into the project directory:
     ```
@@ -23,6 +23,12 @@ This project provides a service that consumes telemetry data from the MQTT serve
 3. Build the Docker image:
     ```
     docker build -t finland-bus-tracker .
+    ```
+   Alternatively, you can install the dependencies and run the project locally:
+    ```
+    pip install -r requirements.txt
+    mqtt_client.py   # Run this script to start the MQTT client
+    python app.py    # Run this script to start the Flask server
     ```
 
 ## Usage
