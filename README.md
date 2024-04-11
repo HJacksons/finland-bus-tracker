@@ -37,7 +37,7 @@ This project provides a service that consumes telemetry data from the MQTT serve
     ```
     docker run -p 5001:5001 finland-bus-tracker
     ```
-2. Access the API at `http://localhost:5001`.
+2. Access the API at `http://localhost:5001 ` or `http://127.0.0.1:5001`.
 
 ## API Endpoints
 
