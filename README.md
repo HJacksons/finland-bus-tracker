@@ -24,12 +24,6 @@ This project provides a service that consumes telemetry data from the MQTT serve
     ```
     docker build -t finland-bus-tracker .
     ```
-   Alternatively, you can install the dependencies and run the project locally:
-    ```
-    pip install -r requirements.txt
-    mqtt_client.py   # Run this script to start the MQTT client
-    python app.py    # Run this script to start the Flask server
-    ```
 
 ## Usage
 
@@ -38,6 +32,13 @@ This project provides a service that consumes telemetry data from the MQTT serve
     docker run -p 5001:5001 finland-bus-tracker
     ```
 2. Access the API at `http://localhost:5001 ` or `http://127.0.0.1:5001`.
+
+    Alternatively, you can install the dependencies and run the project locally:
+    ```
+    pip install -r requirements.txt
+    mqtt_client.py   # Run this script to start the MQTT client
+    python app.py    # Run this script to start the Flask server
+    ```
 
 ## API Endpoints
 
